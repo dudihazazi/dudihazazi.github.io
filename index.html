@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Tugas 02 Minggu 03 PWeb">
+    <meta name="author" content="M. Asaduddin Hazazi">
+
+	<title>Dudi Hazazi - A Personal Website</title>
+
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">dudihazazi</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#interest">Interest</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="site-wrapper">
+		<div class="site-wrapper-inner">
+			<div class="cover-container">
+				<div class="inner cover">
+					<h1>
+						<span>DUDIHAZAZI</span><br>
+						<hr>
+						<small>a personal website</small>
+					</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="about">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-4">
+    				<img src="img/about.png" class="img-responsive" alt="Me">
+    			</div>
+    			<div class="col-md-8">
+    				<h1>About Me</h1>
+    				<h3>Hai,<br>Saya adalah <b>Muhammad Asaduddin Hazazi</b>. Orang - orang biasa memanggil saya dengan nama <b>Dudi</b>. Saya yang merupakan anak tunggal dari pasangan ibu dan ayah saya ini lahir pada tanggal <b>13 September 1996 di kota Magelang</b>, kota asal Ayah saya.  Saat ini saya menetap di Yogyakarta, lebih tepatnya di Jalan Godean, Kota Sleman. Sejak tahun 2014 saya mulai menempuh jenjang pendidikan tinggi <b>S1 Ilmu Komputer di Universitas Gadjah Mada</b>. Selain itu saya juga lumayan aktif sebagai anggota Organisasi OmahTI</h3>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div id="interest">
+    	<div class="container">
+    		<div class="row">
+    			<h1>My Interest</h1>
+    			<div class="col-md-4">
+    				<img src="img/icon_web.png" class="img-responsive center-block" alt="Web">
+    				<h3>Web Development</h3>
+    			</div>
+    			<div class="col-md-4">
+    				<img src="img/icon_gm.png" class="img-responsive center-block" alt="Web">
+    				<h3>Game Development</h3>
+    			</div>
+    			<div class="col-md-4">
+    				<img src="img/icon_vid.png" class="img-responsive center-block" alt="Web">
+    				<h3>Video/Film Production</h3>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <div id="portfolio">
+		<div class="container">
+			<div class="row">
+				<h1>My Portfolio<br><small>beberapa hal yang saya kerjakan<small></h1>
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-image" id="c1"></div>
+						<h3 class="nama">Website PPSMB Pascal 2016</h4>
+						<a href="http://pascal.fmipa.ugm.ac.id/">Lihat</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-image" id="c2"></div>
+						<h3 class="nama">Web Aplikasi BeHafidz</h4>
+						<a href="http://dudihazazi.github.io/behafidz">Lihat</a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="card">
+						<div class="card-image" id="c3"></div>
+						<h3 class="nama">Web Kabisa</h4>
+						<a href="#">Lihat</a>
+					</div>
+				</div>
+			</div>
+			<div class="row video">
+				<div class="col-md-3 teks">
+					<h1>
+						<span class="utama">Senja</span><br>
+						<small>sebuah film pendek</small>
+						<hr class="di-teaser">
+					</h1>
+				</div>
+				<div class="col-md-9">
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item"width="560" height="315" src="https://www.youtube.com/embed/Qu4v7Jq9F7s" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 femail">
+				
+					<h1>Contact Me !</h1>
+					<br>
+					<form action="https://formspree.io/mizuharu21@gmail.com" method="post">
+						<div class="rounded">
+							<input type="text" placeholder="E-Mail" name="_replyto"/>
+						</div>
+						<br>
+						<div class="rounded">
+							<input name="name" type="text" placeholder="Nama"/>
+						</div>
+						<br>
+						<div class="rounded-c">
+							<textarea name="comment" placeholder="Pesan"></textarea>
+						</div>
+						<br>
+						<button type="submit" class="btn btn-lg btn-default" value="Send">Kirim</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer">
+		<p>Copyright © 2016 dudihazazi</p>
+	</div>
+
+</body>
+</html>
