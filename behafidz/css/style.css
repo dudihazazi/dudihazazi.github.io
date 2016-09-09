@@ -1,0 +1,298 @@
+@import url(https://fonts.googleapis.com/css?family=Martel:200);
+@font-face {
+    font-family: Roman;
+    src: url('../fonts/RomanSerif.ttf');
+}
+
+html,
+body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	color: #fff;
+	text-align: center;
+	/*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
+	background-image: url('../img/cover.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1{
+	font-size: 5vw;
+	font-family: Roman;
+	letter-spacing: 5px;
+	line-height: 0.8em;
+}
+
+h1 small{
+	font-size: 2.5vw;
+	font-family: 'Martel';
+	letter-spacing: 1px;
+	color: #fff;
+	font-weight: 100px;
+}
+
+.site-wrapper {
+	display: table;
+	width: 100%;
+	height: 100vh;
+	min-height: 100%;
+}
+
+.site-wrapper-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.cover-container {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.inner {
+	padding: 30px;
+}
+
+.cover {
+	padding: 0 20px;
+}
+
+#testimoni{
+	font-family: "Martel";
+	letter-spacing: 1px;
+}
+
+#features{
+	height: 75vh;
+	width: 100%;
+	background-image: url('../img/islamicPattern.png');
+	background-size: contain;
+	background-repeat: repeat-x;
+	color: #1a1a1a;
+}
+
+.phone{
+	margin-top: 2%;
+	padding-left: 4%;
+	padding-right: 4%;
+	height: 70vh;
+	position: relative;
+}
+
+.fitur{
+	text-align: justify;
+	margin-top: 18vh;
+}
+
+.fitur h2{
+	color: #26a69a;
+	font-size: 4vw;
+	font-family: Roman;
+}
+
+.fitur h3{
+	font-size: 1.5vw;
+	font-family: "Martel";
+	line-height: 30px;
+}
+
+#contact{
+	height: 80vh;
+	min-height: 100%;
+	width: 100%;
+	background-color: #26a69a;
+	color: #1a1a1a;
+	overflow: hidden;
+}
+
+.gudeg{
+	margin-top: 10vh;
+	color: #fff;
+	text-align: justify;
+	font-family: Roman;
+}
+
+.gudeg h2{
+	font-size: 3vw;
+}
+
+.gudeg h3{
+	font-size: 1.1vw;
+	font-family: "Martel";
+	line-height: 30px;
+}
+
+.femail{
+	color: #fff;
+	text-align: right;
+	font-family: Roman;
+}
+
+.femail h2{
+	font-size: 3vw;
+}
+
+input{
+	width: 100%;
+	height: 50px;
+	background-color: transparent;
+	border: none;
+	padding: 10px;
+	font-size: 2vw;
+}
+
+::-webkit-input-placeholder {
+   color: #26a69a;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #26a69a; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #26a69a;  
+}
+
+:-ms-input-placeholder {  
+   color: #26a69a;  
+}
+
+.rounded{
+	width: 100%;
+	height: 50px;
+	background-color: #048478;
+	border-radius: 7px;
+}
+
+textarea{
+	resize:none;
+	width: 100%;
+	height: 165px;
+	background-color: transparent;
+	border: none;
+	padding: 10px;
+	font-size: 1.5vw;
+}
+
+.rounded-c{
+	width: 100%;
+	height: 165px;
+	background-color: #048478;
+	border-radius: 7px;
+}
+
+input[type="submit"]{
+	font-size: 1vw;
+	height: auto;
+}
+
+.modal{
+	overflow: hidden;
+}
+
+#footer{
+	width: 100%;
+	height: 100%;
+	background-color: #1a1a1a;
+	padding:10px 0px 0px 8vw;
+	text-align: left;
+	font-family: "Martel";
+}
+
+@media screen and (max-width: 992px){
+	
+	body{
+		background-size: auto;
+	}
+	
+	h1{
+		font-size: 12vw;
+	}
+
+	h1 small{
+		font-size: 6vw;
+	}
+	
+	h4{
+		font-size: 5vw;
+	}
+
+	.inner{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.playstore{
+		margin-bottom: 10px;
+	}
+
+	#features{
+		height: 100%;
+		background-size: cover;
+	}
+
+	.phone{
+		height: 100%;
+		padding: 10vw 25vw 5vw 25vw;
+	}
+
+	.fitur{
+		height: 100%;
+		margin-top: auto;
+	}
+
+	.fitur h2{
+		font-size: 9vw;
+	}
+
+	.fitur h3{
+		font-size: 5vw;
+	}
+
+	#contact{
+		height: 100%;
+		padding-bottom: 30px;
+	}
+	
+	.gudeg{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	.gudeg h2{
+		font-size: 9vw;
+		text-align: center;
+	}
+
+	.gudeg h3{
+		font-size: 5vw;
+		font-family: "Martel";
+		line-height: 30px;
+	}
+
+	.femail h2{
+		text-align: center;
+		font-size: 9vw;
+	}
+
+	.femail{
+		margin-top: 20px;
+		text-align: left;
+	}
+
+	input{
+		font-size: 5vw;
+	}
+
+	textarea{
+		font-size: 4vw;
+	}
+
+	#footer{
+		text-align: center;
+	}
+	
+}

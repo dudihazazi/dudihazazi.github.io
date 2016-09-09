@@ -1,0 +1,35 @@
+Color:
+Black : #1a1a1a
+Tosca : #26a69a
+
+Text:
+Testimoni
+	“Aplikasi yang simpel dan penggunaan yang mudah memacu orang untuk menggunakannya”
+	Khoirul Fahmi, Hafidz 30 Juz
+
+	“BeHafidz sangat membantu orang sibuk yang ingin menghafal Al-Qur’an baik menambah atau menjaga hafalannya. Fitur-fitur yang diberikan sangat cocok serta mudah penggunaanya”
+	Noor Akhmad Setiawan, Pengajar dan pembina pesantren tahfidz mahasiswa De Muttaqin, Yogyakarta
+
+	“Menarik untuk muraja’ah, terkhusus untuk teman-teman yang mengikuti MTQ Hifdzil, aplikasi bisa digunakan untuk latihan”
+	Muhammad Abid Mubarak, Hafidz 2 Juz
+
+	“Cocok digunakan kapanpun, terutama saat tidak ada teman atau murabbi yang bisa mengawasi setoran hafalan”
+	Verdiaz  R, Penghafal pemula
+
+
+Fitur:	
+	Penguji Hafalan
+	Dengan sistem penguji hafalan BeHafidz yang cerdas pengguna akan merasakan pengalaman pengujian berbeda. BeHafidz akan melakukan pengujian hafalan menyesuaikan dengan kualitas hafalan masing-masing pengguna.
+
+	Pemutar Ayat
+	BeHafidz memiliki pemutar ayat Al-Quran yang dirancang nutuk memudahkan pengguna untuk mengulang-ngulang bacaan. Pemutar ayat bisa memutar ayat-ayat tertentu berulang kali sesuai kebutuhan pengguna.
+
+	Status Hafalan
+	Warna status hafalan pada sebuah surat akan memudahkan pengguna untuk lebih sering melakukan muraja'ah pada surat-surat tertentu yang sering mengalami kesalahan saat pengujian.
+
+	Gudeg Barakah
+	Kami hanyalah sekumpulan anak muda yang ingin memberi manfaat lebih dengan ilmu kami. Jika Anda tertarik untuk membantu kami melakukan pengembangan lebih lanjut, kami menerima donasi untuk pengembangan selanjutnya
+
+telephone : +62813-9253-4092
+email : support@behafidz.com
+facebook : BeHafidz
