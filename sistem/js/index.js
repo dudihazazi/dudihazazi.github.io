@@ -83,6 +83,84 @@ $(".retry").click(function(){
 
 Kilogram.addEventListener('input', updateBMI);
 Meter.addEventListener('input', updateBMI);
+Kilogram.addEventListener('input', cekBerat);
+Meter.addEventListener('input', cekTinggi);
+
+function cekBerat(){
+	const berat = Kilogram.value;
+	var kg_ringan = 0;
+	var kg_normal = 0;
+	var kg_berat = 0;
+	var cat_berat = "";
+	if (berat>0&&berat<=55) {
+		if (berat<=40){
+			kg_ringan = 1;
+		} else if (berat>=40&&berat<=55){
+			kg_ringan = (55-berat)/15;
+		} else if (berat>=55){
+			kg_ringan = 0;
+		}
+	};
+	if (berat>=45&&berat<=65) {
+		if (berat<=45||berat>=65){
+			kg_normal = 0;
+		} else if (berat>=45&&berat<=55) {
+			kg_normal = (berat-45)/10;
+		} else if (berat>=55&&berat<=65){
+			kg_normal = (65-berat)/10;
+		}
+	};
+	if (berat>=55){
+		if (berat<=55){
+			kg_berat = 0;
+		} else if(berat>=55&&berat<=75){
+			kg_berat = (berat-55)/20;
+		} else if(berat>=75){
+			kg_berat = 1;
+		}
+	};
+	document.getElementById('bb-ringan').innerHTML = kg_ringan.toFixed(2);
+	document.getElementById('bb-normal').innerHTML = kg_normal.toFixed(2);
+	document.getElementById('bb-berat').innerHTML = kg_berat.toFixed(2);
+}
+
+function cekTinggi(){
+	const tinggi = Meter.value;
+	var cm_rendah = 0;
+	var cm_normal = 0;
+	var cm_tinggi = 0;
+	var cat_tinggi = "";
+	if (tinggi>0&&tinggi<=165) {
+		if (tinggi<=150){
+			cm_rendah = 1;
+		} else if (tinggi>=150&&tinggi<=165){
+			cm_rendah = (165-tinggi)/15;
+		} else if (tinggi>=165){
+			cm_rendah = 0;
+		}
+	};
+	if (tinggi=>150&&tinggi<=175) {
+		if (tinggi<=150||tinggi>=175){
+			cm_normal = 0;
+		} else if (tinggi>=150&&tinggi<=165) {
+			cm_normal = (tinggi-150)/15;
+		} else if (tinggi>=165&&tinggi<=175){
+			cm_normal = (175-tinggi)/10;
+		}
+	};
+	if (tinggi>=160){
+		if (tinggi<=160){
+			cm_tinggi = 0;
+		} else if(tinggi>=160&&tinggi<=175){
+			cm_tinggi = (tinggi-160)/15;
+		} else if(tinggi>=175){
+			cm_tinggi = 1;
+		}
+	};
+	document.getElementById('tb-rendah').innerHTML = cm_rendah.toFixed(2);
+	document.getElementById('tb-normal').innerHTML = cm_normal.toFixed(2);
+	document.getElementById('tb-tinggi').innerHTML = cm_tinggi.toFixed(2);
+}
 
 function updateBMI() {
   const bmi = Kilogram.value / (Meter.value * Meter.value);
