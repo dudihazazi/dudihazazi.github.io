@@ -11,7 +11,7 @@ html {
 	/*background = gradient + image pattern combo*/
 	background: 
 		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
-	overflow-y:hidden;
+	overflow-y: hidden; 
 }
 
 body {
@@ -19,8 +19,8 @@ body {
 }
 /*form styles*/
 #msform {
-	width: 400px;
-	margin: 50px auto;
+	width:500px;
+	margin: 30px auto;
 	text-align: center;
 	position: relative;
 }
@@ -92,7 +92,7 @@ body {
 	color: white;
 	text-transform: uppercase;
 	font-size: 9px;
-	width: 33.33%;
+	width: 20%;
 	float: left;
 	position: relative;
 }
@@ -149,7 +149,15 @@ table, th, tr, td{
 th{
 	text-align: center;
 	font-weight: bold;
+	vertical-align: middle;
 }
 
+table b{
+	text-align: center;
+}
+
+.implikasi{
+	text-align: center;
+}
 
 
